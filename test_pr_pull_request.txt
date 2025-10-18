@@ -1,0 +1,16 @@
+https://stat159.berkeley.edu/fall-2025/homework/hw02/hw02-review-description/#correcting-an-issue-via-a-pull-request
+
+Correcting an Issue via a Pull Request
+You’ve now opened a bunch of issues on your partner’s repo. GitHub also allows you to suggest corrections to fix any issues you’ve brought up, by way of submitting a pull request.
+
+Among all of the issues you’ve opened, find one that seems easy enough for you to correct. Each issue you’ve created has an associated number (starting from 1). Take note of this number. If there aren’t any you can think of, open a separate sub-issue in the ‘Binder support’ meta-issue called ‘Test PR’ so we can still practice the workflow, and take note of this issue’s number.
+
+1. Create a fork of your partner’s repo, choosing the owner as your personal account (as opposed to the course organization).
+
+2. Make the change that would fix the issue. Commit it to your fork. If you couldn’t find an issue to correct, add a random text file to the repo called test.txt, and put some text in it to simulate a change. You can do this directly in GitHub, or you can clone a copy into the DataHub and make changes from there if you wish.
+
+3. Navigate to your fork of your peer’s repo on GitHub. You should see a button that says ‘Contribute’. Click it, and click ‘Open pull request’. In the description, type ‘Fixes #x’ where x is the issue number you noted earlier.
+
+4. You’re done! Now, your peer will be able to see your pull request in the Pull Requests tab of their repo. If they merge your PR, the issue you mentioned will be automatically closed. Note: the original repo owners do not have to do this for the purposes of the assignment, but if you’d like to see this functionality in action I’d highly recommend doing it. It’s cool!
+
+Note: as it turns out, GitHub automatically closes issue when they are referenced in particular ways in commit messages and pull request descriptions. If you’d like to learn more, see this blog post.
